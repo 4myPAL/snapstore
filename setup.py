@@ -64,6 +64,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
         'requests>=2.17.2',
+        'flask>=0.12'
     ],
 
     # List additional groups of dependencies here (e.g. development
@@ -98,9 +99,8 @@ setup(
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
-        'snapstore': [
-            # TODO: ADD entry point
-            'snapstore=',
+        'console_scripts': [
+            'snapstore=store.store:main',
         ],
     },
 )
