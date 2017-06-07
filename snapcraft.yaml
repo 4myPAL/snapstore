@@ -1,5 +1,5 @@
-name: snapstore-example
-version: 0.3
+name: snapstore
+version: 0.2
 confinement: strict
 grade: devel
 summary: Minimalist example snap store
@@ -14,23 +14,15 @@ description: |
 
 apps:
   snapstore:
-    command: store-wrapper.sh
+    command: snapstore
     daemon: simple
     plugs: [network, network-bind]
 
 parts:
-  # Setup the python2 environment and grab the dependencies
+  # Setup the python3 environment and grab the dependencies
   prerequisites:
     source: .
     plugin: python
-    python-version: python2
-    requirements: requirements.txt
-
-  # Copy in the store executable. It's done in a separate part since there's no
-  # setup.py.
-  snapstore:
-    plugin: copy
-    files:
-     store.py: bin/
-     store-wrapper.sh: bin/
-     files: files
+    python-version: python3
+    python-packages:
+	- setuptools
