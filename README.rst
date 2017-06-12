@@ -24,20 +24,20 @@ sudo apt install python-virtualenv
 
 Clone this repo:
 ```
-git clone https://github.com/noise/snapstore.git
+git clone https://github.com/kamil1b/snapstore.git
 cd snapstore
 ```
 
 Setup virtualenv and install dependencies:
 ```
-virtualenv env
+python -m venv env
 . env/bin/activate
-pip install -r requirements.txt
+python setup.py
 ```
 
 Run it:
 ```
-python store.py
+python snapstore
 ```
 
 
@@ -95,4 +95,4 @@ bar   2.5      2    testuser   -
 # Known issues
 
 - It's just an example, probably lots!
-- snap refresh (bulk) not supported
+- snap refresh (bulk) not supported  

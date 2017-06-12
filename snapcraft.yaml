@@ -2,15 +2,8 @@ name: snapstore
 version: 0.2
 confinement: strict
 grade: devel
-summary: Minimalist example snap store
-description: |
-  snapstore is a minimalist example of a "store" for snaps, based on the public
-  API specs (https://wiki.ubuntu.com/AppStore/Interfaces/ClickPackageIndex). It
-  allows anyone to host their own collection of snaps for installation on
-  supported platforms.
-
-  See http://snapcraft.io for more information on creating and using snap
-  packages.
+summary: Minimalist snap store
+description: ...
 
 apps:
   snapstore:
@@ -25,4 +18,4 @@ parts:
     plugin: python
     python-version: python3
     python-packages:
-	- setuptools
+      - setuptools
