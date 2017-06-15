@@ -32,7 +32,7 @@ Clone this repo::
     cd snapstore
 
 
-Setup virtualenv and install dependencies:
+Setup virtualenv and install dependencies::
 
     python -m venv env
     . env/bin/activate
