@@ -9,7 +9,10 @@ snapstore is a minimalist for snaps, based on the public API specs (https://sear
 
 See http://snapcraft.io for more information on creating and using snap packages.
 
-# Server setup (with snappy)::
+Server setup (with snappy)
+----------------------------
+
+::
 
     snap install snapstore
 
@@ -17,7 +20,8 @@ See http://snapcraft.io for more information on creating and using snap packages
 It will be run as a daemon on the default port 5000.
 
 
-# Server setup (manual)
+Server setup (manual)
+---------------------
 
 Install python-virtualenv.
 
@@ -45,12 +49,14 @@ Run it::
 
 
 
-# File management
+File management
+---------------
 
 Put snaps (named as name.snap) and metadata (named as name.meta) in ./files/ (/var/snap/snapstore/current/files/ for snap version).
 
 
-# Client setup
+Client setup
+============
 
 On any distribution supporting snaps (see http://snapcraft.io), install snapd (requires snapd >=2.0.6).
 
@@ -69,7 +75,8 @@ Then bounce snapd::
     sudo service snapd restart
 
 
-# Usage
+Usage
+=====
 
 Supports snap find <name>, snap install <name>::
 
@@ -92,7 +99,8 @@ Supports snap find <name>, snap install <name>::
     Name  Version  Rev  Developer  Notes
     bar   2.5      2    testuser   -
 
-# Known issues
+Known issues
+============
 
 - Alfa version, probably lots!
 - snap refresh (bulk) not supported  
