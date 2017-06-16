@@ -1,6 +1,21 @@
 SnapStore
 ========
-|snapcraft| |fossa| |landscape| |codacy|
+
+.. image:: https://build.snapcraft.io/badge/kamil1b/snapstore.svg 
+   :alt: Snapcraft Badge
+   :target: https://build.snapcraft.io/user/kamil1b/snapstore
+   
+.. image:: https://api.codacy.com/project/badge/Grade/5d5581923fcb43a1bfed27f9ba25a3c6
+   :alt: Codacy Badge
+   :target: https://www.codacy.com/app/kamil1b/snapstore?utm_source=github.com&utm_medium=referral&utm_content=kamil1b/snapstore&utm_campaign=badger
+   
+.. image:: https://landscape.io/github/kamil1b/snapstore/master/landscape.svg?style=flat 
+   :alt: Landscape Badge
+   :target: https://landscape.io/github/kamil1b/snapstore
+   
+.. image:: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fkamil1b%2Fsnapstore.svg?type=shield 
+   :alt: Fossa Badge
+   :target: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fkamil1b%2Fsnapstore?ref=badge_shield
 
 Overview
 ========
@@ -104,14 +119,3 @@ Known issues
 
 - Alfa version, probably lots!
 - snap refresh (bulk) not supported  
-
-.. |snapcraft| image:: https://build.snapcraft.io/badge/kamil1b/snapstore.svg :target: https://build.snapcraft.io/user/kamil1b/snapstore
-.. |fossa| image:: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fkamil1b%2Fsnapstore.svg?type=shield :target: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fkamil1b%2Fsnapstore?ref=badge_shield
-.. |green| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
-.. |landscape| image:: https://landscape.io/github/kamil1b/snapstore/master/landscape.svg?style=flat :target: https://landscape.io/github/kamil1b/snapstore
-.. |codacy| image:: https://api.codacy.com/project/badge/Grade/5d5581923fcb43a1bfed27f9ba25a3c6 :target: https://www.codacy.com/app/kamil1b/snapstore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kamil1b/snapstore&amp;utm_campaign=Badge_Grade
-
-
-.. image:: https://api.codacy.com/project/badge/Grade/5d5581923fcb43a1bfed27f9ba25a3c6
-   :alt: Codacy Badge
-   :target: https://www.codacy.com/app/kamil1b/snapstore?utm_source=github.com&utm_medium=referral&utm_content=kamil1b/snapstore&utm_campaign=badger
