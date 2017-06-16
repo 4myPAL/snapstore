@@ -110,3 +110,8 @@ Known issues
 .. |green| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
 .. |landscape| image:: https://landscape.io/github/kamil1b/snapstore/master/landscape.svg?style=flat :target: https://landscape.io/github/kamil1b/snapstore
 .. |codacy| image:: https://api.codacy.com/project/badge/Grade/5d5581923fcb43a1bfed27f9ba25a3c6 :target: https://www.codacy.com/app/kamil1b/snapstore?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kamil1b/snapstore&amp;utm_campaign=Badge_Grade
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/5d5581923fcb43a1bfed27f9ba25a3c6
+   :alt: Codacy Badge
+   :target: https://www.codacy.com/app/kamil1b/snapstore?utm_source=github.com&utm_medium=referral&utm_content=kamil1b/snapstore&utm_campaign=badger
